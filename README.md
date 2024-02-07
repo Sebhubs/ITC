@@ -1,5 +1,5 @@
 
-# Ultimate Cheat Sheets for Developers
+# Ultimate Cheat Sheets for Bash/Python/SQL/Scala
 
 Welcome to the Ultimate Cheat Sheets repository, where you can find comprehensive guides and examples for Linux Commands, Python, SQL, and Scala. Whether you're a beginner looking to get started or an experienced developer seeking a quick reference, this repository has something for everyone.
 
@@ -14,19 +14,19 @@ This repository is divided into four main sections, each dedicated to a specific
 
 ## Featured Content
 
-![Linux Commands](https://example.com/linux_commands_image.jpg)
+[Linux Commands](https://example.com/linux_commands_image.jpg)
 
 Linux commands are the backbone of any Linux user or system administrator. Mastering these commands can significantly enhance your productivity and understanding of the Linux ecosystem.
 
-![Python Programming](https://example.com/python_image.jpg)
+[Python Programming](https://example.com/python_image.jpg)
 
 Python's simplicity and readability make it an excellent choice for beginners and experts alike. Dive into our Python cheat sheets and examples to unlock its full potential.
 
-![SQL Queries](https://example.com/sql_image.jpg)
+[SQL Queries](https://example.com/sql_image.jpg)
 
 SQL is the standard language for relational database management. Our cheat sheets provide a solid foundation for querying databases effectively.
 
-![Scala Programming](https://example.com/scala_image.jpg)
+[Scala Programming](https://example.com/scala_image.jpg)
 
 Scala combines object-oriented and functional programming in one concise, high-level language. Explore our Scala resources to start building powerful applications.
 
