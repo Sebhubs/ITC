@@ -32,7 +32,7 @@ Scala combines object-oriented and functional programming in one concise, high-l
 
 ## Contributing
 
-We welcome contributions from the community! Whether you want to add new cheat sheets, improve existing ones, or fix bugs, your help is greatly appreciated. Please refer to our [contribution guidelines](/CONTRIBUTING.md) for more information.
+...
 
 ## License
 
@@ -40,8 +40,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Thanks to all the contributors who have helped to enrich this repository.
-- Special thanks to the open-source community for providing invaluable resources and inspiration.
+- Trainer Uttam Thanks to all the contributors who have helped to enrich this repository.
+- All the Big Data Developer colleagues at ITC.
 
 ---
 
