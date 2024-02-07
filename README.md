@@ -40,7 +40,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Trainer Uttam Thanks to all the contributors who have helped to enrich this repository.
+- Trainer Uttam.
 - All the Big Data Developer colleagues at ITC.
 
 ---
