@@ -1,11 +1,23 @@
+
 object Main {
   def main(args: Array[String]): Unit = {
     println("Hello world 0 ")
-    println("Hello world 1 ")
-    println("Hello world 2 ")
-    println("Hello world 3 ")
-    println("Hello world 4 " )
+    val alice = new Person( "Alice": String, 30: Int );
+    val bob   = new Person( "Bob"  : String, 31: Int );
+
+    alice.greet()
+    bob.greet()
+    alice.greet()
+    bob.greet()
+    alice.greet()
+
   }
 }
 
+
+class Person(name: String, age: Int) {
+  def greet(): Unit = {
+    println(s"Hello, my name is $name and I am $age years old.")
+  }
+}
 
