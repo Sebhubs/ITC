@@ -22,7 +22,9 @@ hdfs dfs -cat /tmp/USUK30/seb/output/part-00000
 ```
 
 - To **copy** the files from (cloud local folder) to personal laptop:
+
 ```
+On local computer, go to Downloads, open a terminal, enter the following :
 scp -i test_key.pem -r ec2-user@ec2-18-133-73-36.eu-west-2.compute.amazonaws.com:/home/ec2-user/BD_USUK_30012024/sebou C:/Users/sebou/Downloads
 ```
 
