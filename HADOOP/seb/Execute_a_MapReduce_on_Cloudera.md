@@ -1,4 +1,5 @@
-# HDFS Command Line Cheat Sheet, to execute a MapReduce job
+# HDFS Command Line Cheat Sheet 
+### Running a MapReduce job
 
 - **Create** a ```file1.txt```, in the local folder, fill it with some content.
 - **Write** 2 python scripts :
