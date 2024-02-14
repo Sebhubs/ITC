@@ -38,42 +38,42 @@ scp -i test_key.pem -r ec2-user@ec2-18-133-73-36.eu-west-2.compute.amazonaws.com
 
 # Other command lines 
 
-- Show the files within the directory
+- **Show** the files within the directory
   ```
   hdfs dfs -ls /path/to/directory
   ```
 
-- Remove the file
+- **Remove** the file
   ```
   hdfs dfs -rm /path/to/file
   ```
 
-- change permissions of the file
+- **Change permissions** of the file
   ```
   sudo -u hdfs hdfs dfs -chmod [numbernumbernumber] [/path/to/file]
   ```
 
-- Push a file from local to HDFS
+- **Push/Put** a file from local to HDFS
   ```
   hdfs dfs -put [/path/to/file] [/path/at/HDFS]
   ```
 
-- Pull (take) the file from HDFS
+- **Pull/take** the file from HDFS
   ```
   hdfs dfs -get [/path/at/HDFS]
   ```
 
-- Do the wordcount (java MapReduce ) example on Hadoop
+- **Run** the wordcount (java MapReduce ) example on Hadoop
   ```
   sudo -u hdfs hadoop jar [path/to/hadoop-streaming.jar] wordcount [/path/to/file] [/path/to/output/directory]
   ```
 
-- Display/show the info inside file on Hadoop
+- **Display/show** the info inside file on Hadoop
   ```
   hdfs dfs -cat [/path/to/file]
   ```
 
-- Run Python MapReudce Scripts on Hadoop
+- **Run** Python MapReudce Scripts on Hadoop
   ```
   sudo -u hdfs hadoop jar [path/to/hadoop-streaming.jar] -files mapper.py reducer.py
   -mapper "/usr/bin/python mapper.py" -reducer "/usr/bin/python reducer.py" -input [/path/to/file] -output [/path/to/output/directory]
