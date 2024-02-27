@@ -1,0 +1,47 @@
+11,aJohn Doe,30
+12,bJane Smith,32
+13,bAlex Johnson,25
+14,cMaria Garcia,28
+15,cChen Wei,33
+16,cOlivia Brown,29
+17,dLiam Miller,31
+18,dEmma Wilson,27
+19,dNoah Davis,34
+20,Ava Taylor,26
+21,cJohn Doe,30
+22,cJane Smith,32
+23,dcAlex Johnson,25
+24,dcMaria Garcia,28
+25,dcChen Wei,33
+26,dcOlivia Brown,29
+27,ddLiam Miller,31
+
+
+
+
+
+./step_1.sh user table_name hive_db
+
+
+Some changes in the original table (PostGres)
+
+./step_2.sh user table_name Hive-Database
+
+
+Open permissions / change owner 
+sudo -u hdfs hdfs dfs -chown -R yarn:yarn /tmp/USUK30/seb/hive/yadb/z5_seb_table_1
+sudo -u hdfs hdfs dfs -chmod -R 777 /tmp/USUK30/seb/hive/hive/yadb/z5_seb_table_1
+
+
+sudo -u hdfs hdfs dfs -chown -R yarn:yarn /tmp/USUK30/seb/hive/yadb/z6_seb_table_1
+sudo -u hdfs hdfs dfs -chmod -R 777 /tmp/USUK30/seb/hive/yadb/z6_seb_table_1
+
+
+
+sudo -u hdfs hdfs dfs -chown -R hive:hive /tmp/USUK30/seb/hive
+
+
+
+sudo -u hdfs hdfs dfs -chmod -R 777 /tmp/USUK30/seb/hive
+
+

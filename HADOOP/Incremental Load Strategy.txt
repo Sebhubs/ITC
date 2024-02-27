@@ -1,0 +1,14 @@
+Incremental Load Strategy
+
+0. We locally have a data.CSV file
+
+Creation of the table
+1. From that file a database is created in the cloud, the rdbms is Postgres
+2. Sqoop imports the 'PostGres' table as a text-file to HDFS 
+3. An external table is created in Hive, pointing to the location of the imported file
+
+4. Now, some new records have been added to the data.CSV file
+
+Up-serting the new records
+5. We upsert them into the Postgres table
+6. Then, using scoop, we do an incremental load to the table in Hive

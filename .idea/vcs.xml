@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HADOOP/Spark/HelloWorldSparkIntelliJ" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HADOOP/Spark/ScalaSpark" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HADOOP/Spark/Test_Jenkins" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HADOOP/Spark/Test_Spark_Scala" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HADOOP/Spark/Test_with_Keith_SparkScala" vcs="Git" />
+  </component>
+</project>
