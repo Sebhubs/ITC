@@ -20,3 +20,6 @@ df = spark.createDataFrame(data, schema)
 
 # Show DataFrame
 df.show()
+
+print("Hello World 2!")
+
